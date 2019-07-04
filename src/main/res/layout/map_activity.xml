@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFF">
+
+    <ImageButton
+        android:id="@+id/firstLevel"
+        android:layout_width="103dp"
+        android:layout_height="104dp"
+        android:layout_x="37dp"
+        android:layout_y="46dp"
+        android:background="@drawable/circle_button"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <ImageButton
+        android:id="@+id/secondLevel"
+        android:layout_width="103dp"
+        android:layout_height="104dp"
+        android:layout_x="164dp"
+        android:layout_y="46dp"
+        android:background="@drawable/circle_button"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <ImageButton
+        android:id="@+id/thirdLevel"
+        android:layout_width="103dp"
+        android:layout_height="104dp"
+        android:layout_x="285dp"
+        android:layout_y="46dp"
+        android:background="@drawable/circle_button"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <ImageView
+        android:id="@+id/imageMap"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:layout_weight="1"
+        android:layout_x="1dp"
+        android:layout_y="175dp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_x="9dp"
+        android:layout_y="722dp"
+        android:background="@drawable/default_button"
+        android:gravity="center"
+        android:text="Вернуться в главное меню"
+        android:textColor="@color/textButton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:layout_x="73dp"
+        android:layout_y="66dp"
+        android:text="1"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:layout_x="199dp"
+        android:layout_y="64dp"
+        android:text="2"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:layout_x="321dp"
+        android:layout_y="64dp"
+        android:text="3"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+</AbsoluteLayout>

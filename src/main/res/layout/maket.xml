@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".Schedule_bus1">
+
+    <ImageView
+        android:id="@+id/imageV8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="223dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <ImageView
+        android:id="@+id/imageV5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="177dp"
+        android:layout_y="227dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:id="@+id/bus7"
+        android:layout_width="71dp"
+        android:layout_height="43dp"
+        android:layout_x="7dp"
+        android:layout_y="149dp"
+        android:gravity="center"
+        android:text="автобус"
+        android:textColor="#000"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <TextView
+        android:id="@+id/bus4"
+        android:layout_width="77dp"
+        android:layout_height="43dp"
+        android:layout_x="3dp"
+        android:layout_y="345dp"
+        android:gravity="center"
+        android:text="маршрут"
+        android:textColor="#000"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <TextView
+        android:id="@+id/bus6"
+        android:layout_width="79dp"
+        android:layout_height="43dp"
+        android:layout_x="1dp"
+        android:layout_y="517dp"
+        android:gravity="center"
+        android:text="автобус"
+        android:textColor="#000"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_x="143dp"
+        android:layout_y="91dp"
+        android:text="Основные остановки"
+        android:textColor="@color/textHintColor"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="79dp"
+        android:layout_height="43dp"
+        android:layout_x="1dp"
+        android:layout_y="130dp"
+        android:gravity="center"
+        android:text="35"
+        android:textColor="#f90000"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <Button
+        android:id="@+id/globus_1"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="78dp"
+        android:layout_y="131dp"
+        android:background="@drawable/start_point"
+        android:gravity="center"
+        android:text="ГЛОБУС"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/imagV7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="177dp"
+        android:layout_y="150dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/avrora_1"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="202dp"
+        android:layout_y="131dp"
+        android:background="@drawable/point11"
+        android:gravity="center"
+        android:text="Аврора"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/imagV8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="300dp"
+        android:layout_y="150dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/krasn_1"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="325dp"
+        android:layout_y="131dp"
+        android:background="@drawable/point1"
+        android:gravity="center"
+        android:text="Красноборская"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <Button
+        android:id="@+id/nizh_poselok_1"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="325dp"
+        android:layout_y="209dp"
+        android:background="@drawable/finish2"
+        android:gravity="center"
+        android:text="Средний поселок"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/imageV9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="301dp"
+        android:layout_y="228dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/univer_city_1"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="203dp"
+        android:layout_y="209dp"
+        android:background="@drawable/finish_point"
+        android:gravity="center"
+        android:text="Унив. Городок"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/imageV10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="583dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <ImageView
+        android:id="@+id/imageV11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="410dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/school_50_1"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="78dp"
+        android:layout_y="209dp"
+        android:background="@drawable/point2"
+        android:gravity="center"
+        android:text="школа №50"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="79dp"
+        android:layout_height="43dp"
+        android:layout_x="2dp"
+        android:layout_y="499dp"
+        android:gravity="center"
+        android:text="27"
+        android:textColor="#f90000"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <Button
+        android:id="@+id/shinn_zavod"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="78dp"
+        android:layout_y="490dp"
+        android:background="@drawable/start_point"
+        android:gravity="center"
+        android:text="Шинный завод"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/imagV5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="177dp"
+        android:layout_y="510dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/oct_square_27"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="203dp"
+        android:layout_y="491dp"
+        android:background="@drawable/point11"
+        android:gravity="center"
+        android:text="Октябрьская пл."
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/imagV6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="301dp"
+        android:layout_y="510dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/school_50_27"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="325dp"
+        android:layout_y="490dp"
+        android:background="@drawable/point2"
+        android:gravity="center"
+        android:text="Школа №50"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <Button
+        android:id="@+id/sof_church"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="203dp"
+        android:layout_y="564dp"
+        android:background="@drawable/finish2"
+        android:gravity="center"
+        android:text="Софийская церковь"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/imageV7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="177dp"
+        android:layout_y="581dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/soyuznaya"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="78dp"
+        android:layout_y="562dp"
+        android:background="@drawable/finish_point"
+        android:gravity="center"
+        android:text="Союзная 1"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/imageV6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="177dp"
+        android:layout_y="413dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/school_50_2"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="78dp"
+        android:layout_y="394dp"
+        android:background="@drawable/point2"
+        android:gravity="center"
+        android:text="школа №50"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <Button
+        android:id="@+id/avrora_2"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="203dp"
+        android:layout_y="323dp"
+        android:background="@drawable/point11"
+        android:gravity="center"
+        android:text="Аврора"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/imageV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="301dp"
+        android:layout_y="412dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/krasn_2"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="325dp"
+        android:layout_y="322dp"
+        android:background="@drawable/point1"
+        android:gravity="center"
+        android:text="Красноборская"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/imagV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="177dp"
+        android:layout_y="342dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/univer_city_2"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="203dp"
+        android:layout_y="395dp"
+        android:background="@drawable/finish_point"
+        android:gravity="center"
+        android:text="Унив. Городок"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="56dp"
+        android:gravity="center"
+        android:text="Актуальный транспорт"
+        android:textColor="@color/textHintColor"
+        android:textSize="20sp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="79dp"
+        android:layout_height="43dp"
+        android:layout_x="1dp"
+        android:layout_y="319dp"
+        android:gravity="center"
+        android:text="35"
+        android:textColor="#f90000"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+
+    <Button
+        android:id="@+id/globus_2"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="78dp"
+        android:layout_y="322dp"
+        android:background="@drawable/start_point"
+        android:gravity="center"
+        android:text="ГЛОБУС"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+
+    <ImageView
+        android:id="@+id/imagV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="301dp"
+        android:layout_y="342dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/nizh_poselok_2"
+        android:layout_width="98dp"
+        android:layout_height="62dp"
+        android:layout_x="325dp"
+        android:layout_y="395dp"
+        android:background="@drawable/finish2"
+        android:gravity="center"
+        android:text="Средний поселок"
+        android:textColor="#000"
+        android:textSize="9sp" />
+
+    <View
+        android:layout_width="550dp"
+        android:layout_height="3dp"
+        android:layout_x="-5dp"
+        android:layout_y="287dp"
+        android:background="@color/ic_launcher_background" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="550dp"
+        android:layout_height="3dp"
+        android:layout_x="2dp"
+        android:layout_y="638dp"
+        android:background="@color/ic_launcher_background" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="600dp"
+        android:layout_height="3dp"
+        android:layout_x="3dp"
+        android:layout_y="468dp"
+        android:background="@color/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/openMap"
+        android:layout_width="234dp"
+        android:layout_height="93dp"
+        android:layout_x="93dp"
+        android:layout_y="726dp"
+        android:background="@drawable/default_button"
+        android:text="Найти на карте"
+        android:textColor="#FFF"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_x="9dp"
+        android:layout_y="19dp"
+        android:background="@drawable/default_button"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="12dp"/>
+
+    <TextView
+        android:id="@+id/page1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="132dp"
+        android:layout_y="688dp"
+        android:onClick="getItems2"
+        android:text="Перейти на страницу 1"
+        android:textColor="@color/textHintColor"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+
+</AbsoluteLayout>
